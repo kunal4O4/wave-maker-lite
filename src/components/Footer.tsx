@@ -51,14 +51,14 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/about" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/how-it-works" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   How It Works
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/gallery" className="text-muted-foreground hover:text-primary transition-colors text-sm">
@@ -66,14 +66,14 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/events" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Events Calendar
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/community" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Community
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -83,29 +83,29 @@ const Footer = () => {
             <h4 className="font-semibold text-foreground mb-4">Support</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/contact" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Contact Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/help" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Help Center
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/privacy" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Privacy Policy
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/terms" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Terms of Service
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                <Link to="/cookies" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                   Cookie Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
